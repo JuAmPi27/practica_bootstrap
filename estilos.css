@@ -1,0 +1,7 @@
+/* esto lo hacemos para que solo en dispoitivos grandes tome el 100% del alto disponible y cuando sean pequeños no corte su contenido */
+@media (min-width: 992px) {
+    /* esta clase .alto-100 la creamos para reemplazar el vh-100 en la clase container */
+    .alto-100{
+        height: 100vh;
+    }
+ }
